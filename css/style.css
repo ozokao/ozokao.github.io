@@ -1,0 +1,255 @@
+html, body{
+	background: #132743;
+	color: #eeeeee;
+	font-family: 'Raleway', sans-serif;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+.blog-header{
+	line-height: 1;
+	border-bottom: 1px solid #e5e5e5
+}
+.blog-header-logo{
+	font-size: 2rem;
+	color: #eeeeee;
+}
+.blog-header-logo:hover{
+	text-decoration: none;
+	color: #eeeeee;
+}
+#about{
+	background: #f8efd4;
+}
+#about p{
+	font-size: .9rem;
+	font-weight: bold;
+	margin: 5px;
+}
+.percent {
+	position: absolute;
+	right: 5px;
+}
+.bar-container {
+  background: #555;
+  position: relative;
+  width: 100%;
+  height: 5px;
+  margin-top: 5px;
+  display: block;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+.bar-container .progressbar {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.bar-container #progress-html {
+  -webkit-animation-name: progress-html;
+  animation-name: progress-html;
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+.bar-container #progress-css {
+  -webkit-animation-name: progress-css;
+  animation-name: progress-css;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+.bar-container #progress-jquery {
+  -webkit-animation-name: progress-javascript;
+  animation-name: progress-javascript;
+  -webkit-animation-delay: 2.1s;
+  animation-delay: 2.1s;
+}
+.bar-container #progress-python {
+  -webkit-animation-name: progress-php;
+  animation-name: progress-php;
+  -webkit-animation-delay: 2.8s;
+  animation-delay: 2.8s;
+}
+.bar-container #progress-django {
+  -webkit-animation-name: progress-angular;
+  animation-name: progress-angular;
+  -webkit-animation-delay: 3.5s;
+  animation-delay: 3.5s;
+}
+.progressred {
+  background-color: #c0392b;
+}
+
+.progressblue {
+  background-color: #1199ff;
+}
+
+.progresspurple {
+  background-color: #9b59b6;
+}
+
+.progressorange {
+  background-color: #ffa500;
+}
+
+.progressgreen {
+  background-color: #27ae60;
+}
+h1{
+	font-size: 3rem;
+}
+h3{
+	font-weight: 600;
+}
+h3 .red{
+	color: #d7385e;
+}
+h3 .yellow{
+	color: #edc988;
+}
+.card{
+	background: #eeeeee;
+	color: #132743;
+}
+@media (max-width: 575.98px),
+@media (max-width: 767.98px) {
+	.blog-header-logo{
+		font-size: 1.5rem;
+	}
+	.blog-header-logo .ibr{
+		display: none;
+	}
+}
+
+@-webkit-keyframes progress-html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-webkit-keyframes progress-css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@-webkit-keyframes progress-javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@-webkit-keyframes progress-php {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@-webkit-keyframes progress-angular {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+@-moz-keyframes progress-html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-moz-keyframes progress-css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@-moz-keyframes progress-javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@-moz-keyframes progress-php {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@-moz-keyframes progress-angular {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+@keyframes progress-html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes progress-css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes progress-javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes progress-php {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes progress-angular {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
